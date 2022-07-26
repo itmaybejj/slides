@@ -9,14 +9,16 @@
 </head>
     <body>
 
-        <div class="slide d-flex flex-column align-items-center justify-content-center  d-flex flex-column align-items-center justify-content-center">
+        <div class="slide d-flex flex-column align-items-center justify-content-center pe-5 me-5 d-flex flex-column align-items-center justify-content-center">
             <div class="row">
-                <div class="col-6">
-                    <h1 class="text-end">All that follows is in the Accessibility site content how-to...</h1>
-                </div>
-                <div class="col-6 d-flex align-content-start justify-content-start">
+                <div class="col-6 d-flex align-content-end justify-content-end">
                     <img class="border shadow" src="../images/2022/Screen Shot 2022-07-21 at 11.04.02 AM.png"/>
                 </div>
+                <div class="col-6">
+                    <h1 class="text-start ps-0">The Accessibility site content how-to contains the top 10 curb cuts</h1>
+                    <p class="">We'll explore how people's needs<br>lead to 7 of them today.</p>
+                </div>
+
             </div>
         </div>
 
@@ -30,7 +32,7 @@
             </div>
         </div>
         <div class="slide d-flex flex-column align-items-center justify-content-center ">
-        <h1 class="text-center">What happens to images on phones?</h1>
+        <h1 class="text-center">Do images of text scale to fit phones?</h1>
 
         <div style="width: 320px; height: 480px; border-radius:6px; overflow: scroll; font-size: 18px; " class="container border border-5 border-secondary shadow">
             <div>
@@ -41,7 +43,7 @@
         </div>
     </div>
     <div class="slide d-flex flex-column align-items-center justify-content-center ">
-        <h1 class="text-center">Low vision users zoom in...a phone-like experience!</h1>
+        <h1 class="text-center">Low vision users enlarge text...a phone-like experience!</h1>
         <div class="row d-flex flex-row">
         <div style="width: 320px; height: 480px; font-size: 16px; overflow: auto; border-radius:6px; " class="border border-5 border-secondary shadow m-1">
             <div>
@@ -89,7 +91,7 @@
             <h1>Basically: design for mobile.</h1>
                 <div class="border border-secondary shadow p-1 col-3" style="overflow: scroll; width: 320px; height: 480px;">
                     <img alt="" src="../images/2021/Endowment_Pt2_RevTuitionChart_102521_REV.jpg" >
-                    <p style="">Redesign the chart to enlarge labels, move the title text out of the image, add a caption...</p>
+                    <p style="">Redesign graphics to enlarge labels, move titles into text above image, add descriptive captions...</p>
                 </div>
         </div>
 
@@ -98,7 +100,7 @@
         </div>
 
     <div class="slide d-flex flex-column align-items-center justify-content-center  text-center">
-        <h1>Low vision & screen glare both lower contrast</h1>
+        <h1>Low vision & screen glare both decrease contrast</h1>
         <div class="row">
             <div class="col-6 border shadow">
                 <img alt="" class="" style="filter: brightness(.65) contrast(.25) blur(1.5px);" src="../images/2021/Endowment_Pt2_RevTuitionChart_102521_REV.jpg" >
@@ -123,7 +125,7 @@
             <div class="col-2" style="color: #ffd4a8">1.4:1</div>
         </div>
         <h1>When does it get hard to read with low vision?</h1>
-        <div class="row" style="width: 100%;  filter: brightness(2) contrast(.95) blur(4px);">
+        <div class="row" style="width: 100%;  filter: brightness(1.75) contrast(.9) blur(.1em);">
             <div class="col-2" style="color: #000;">21:1</div>
             <div class="col-2" style="color: #994d00;">6:1</div>
             <div class="col-2" style="color: #b85d00;">4.5:1</div>
@@ -151,11 +153,16 @@
         <div class="slide d-flex flex-column align-items-center justify-content-center ">
             <h1>...WCAG?</h1>
             <div class="row">
-                <div class="col-6 d-flex align-items-center  justify-content-center flex-column"><img src="../images/2022/Screen Shot 2022-07-20 at 2.46.02 PM.png" /></div>
-                    <div class="col-6 d-flex align-items-center  justify-content-center flex-column"><p style="font-size: 2.5vw">The Web Content Accessibility Guidelines turn <strong>subjective</strong> tips:<br/>("pick an easy to see color")<br/><br>
+                <div class="col-6 d-flex align-items-center  justify-content-center flex-column">
+                    <img src="../images/2022/wcag-contrast.png" class="border border-dark shadow"/>
+                    </div>
+                    <div class="col-6 d-flex align-items-center  justify-content-center flex-column">
+                        <p>The Web Content Accessibility Guidelines turn <strong>subjective</strong> tips:<br/>
+                            "Pick an easy to see color"<br/><br>
                     Into <strong>objective</strong> criteria:<br/>
-                    “...[Small] text and images of text have a contrast ratio of at least 4.5:1...”
-                </p></div>
+                    Small text “has a contrast ratio of at least 4.5:1," large text "at least 3:1."
+                </p>
+                        <p class="small text-secondary"><em>There are <strong>78</strong> of these! We have advanced classes if you're curious.</em></p></div>
 
             </div>
 
@@ -163,27 +170,19 @@
         <div class="slide d-flex flex-column align-items-center justify-content-center ">
             <h1>A? AA? AAA?</h1>
             <div class="row">
-                <div class="col-6 d-flex align-items-center  justify-content-center flex-column"><img src="../images/2022/Screen Shot 2022-07-20 at 2.46.02 PM.png" height="758"
-                                                                                                      width="617"/></div>
-                <div class="col-6 d-flex align-items-center  justify-content-center flex-column"><p style="font-size: 2.5vw">"AA" is the federal (and Princeton) standard.</p><p>"AAA" is...aspirational. Don't worry about AAA.</p></div>
+                <div class="col-6 d-flex align-items-center  justify-content-center flex-column">
+                    <img src="../images/2022/Screen Shot 2022-07-20 at 2.46.02 PM.png"/></div>
+                <div class="col-6 d-flex align-items-center  justify-content-center flex-column">
+                    <p style="font-size: 2.5vw">"AA" is the federal (and Princeton) standard.</p>
+                    <p>"AAA" is...aspirational. Don't worry about AAA.</p></div>
 
             </div>
 
         </div>
 
-        <div class="slide d-flex flex-column align-items-center justify-content-center ">
-            <h1>What else does contrast help with?</h1>
-            <div class="row">
-                <div class="col-6"><img
-                        src="../images/2021/PXL_20211015_134921137.jpg" class="shadow"/></div>
-                <div class="col-6">
-                    <p class="">Contrast still works in black & white!</p>
-                </div>
-            </div>
-        </div>
 
         <div class="slide d-flex flex-column align-items-center justify-content-center  text-center">
-            <h1>Black & white screen filters ONLY show contrast</h1>
+            <h1>What else does contrast help with?</h1>
             <div class="row">
                 <div class="col-6"><img
                         src="../images/2021/PXL_20211015_134921137.jpg" class="shadow"/></div>
@@ -472,8 +471,8 @@
                 <div class="col-6">
                     <p>Write for <strong>brevity & contextual meaning.</strong></p>
                     <ul>
-                        <li><strong>Probably not:</strong> "Image of a small brown dog standing on a hardwood floor, holding a green tennis ball, pressed against her owner's knee. A dining room table is in the background"</li>
-                        <li><strong>Probably not:</strong> "a dog"</li>
+                        <li><strong>Probably not:</strong> "A small brown dog standing on a hardwood floor, holding a green tennis ball, pressed against her owner's knee. A dining room table is in the background"</li>
+                        <li><strong>Probably not:</strong> "A dog"</li>
                         <li><strong>Perhaps:</strong> "Hazel pressing her ball against my knee, asking to play."</li>
                         <li><strong>Or maybe:</strong> "Hazel before being groomed; she is super fluffy and has fur over her face."</li>
                     </ul>
@@ -531,14 +530,14 @@
 
 
         <div class="slide d-flex flex-column align-items-center justify-content-center">
-            <h1>PDFs have "flow" issues.</h1>
+            <h1>PDFs have "reflow" issues.</h1>
             <div class="row">
                 <div class="col-6">
                     <p>On mobile...do you want to squint or z-scroll?</p>
                     <img src="../images/2022/pdfs.png" />
                 </div>
                 <div class="col-6">
-                    <p>On screen readers...are any of the curb cuts we talked about in place, or is it a wall of gibberish?</p>
+                    <p>On screen readers...where did the structure go?</p>
                     <p class="border-secondary border shadow p-3">
                         "Degrees and programs I came to Princeton because I Princeton offers two bachelor degrees a wanted a liberal arts education bachelor of arts (BA) and a bacheral of that would enable me to pursue multiple interests rigorously and Bachelor of Engineering (BSE)."
                     </p>
@@ -550,23 +549,24 @@
             <h1>Where possible, move to alternatives</h1>
             <div class="row">
                 <div class="col-6">
-                    <div style="width: 320px; height: 480px; border-radius:6px; overflow: scroll; font-size: 18px; " class="container border border-5 border-secondary shadow">
-                        <div>
+                    <div style="width: 320px; height: 40vh; border-radius:6px; overflow: scroll; font-size: 18px; " class="container border border-5 border-secondary shadow">
+
                             <p>Just put the content on a page on your site!</p>
                             <p>Pages work great on desktop and mobile!</p>
-                            <p>You can still link to the PDF as a printable download.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
+                        <p>You can still <strong><em>link</em></strong> to the PDF as a "printable" download.</p>
+
                     </div>
                 </div>
                 <div class="col-6">
-                    <div style="width: 320px; height: 480px; border-radius:6px; overflow: scroll; font-size: 18px; " class="container border border-5 border-secondary shadow">
-                        <table class="me-3">
-                            <caption>Or provide Office documents</caption>
+                    <div style="width: 320px; height: 40vh; border-radius:6px; overflow: scroll; font-size: 18px; " class="container border border-5 border-secondary shadow">
+                        <table class="me-1 mb-3">
+                            <caption><strong>Or provide "real" documents</strong></caption>
                             <tr>
-                                <th>XLS</th><th>DOC</th>
+                                <th>MS Word</th><td>Works well</td>
                             </tr>
-                            <tr><td>Works</td><td>Works</td></tr>
+                            <tr><th>Excel</th><td>Works fine</td></tr>
+                            <tr><th>PowerPoint</th><td>Can work</td></tr>
+                            <tr><th>Google Docs</th><td>Works fine</td></tr>
                         </table>
                         <p>The re-flowability is lost when you save to PDF. But native docs can flow to fit mobile, are easier to navigate with screen readers, and are editable to change font size, type or color.</p>
                     </div>
@@ -592,7 +592,7 @@
 
         <div class="slide d-flex flex-column align-items-center justify-content-center ">
             <h1>If you remember nothing else...</h1>
-            <div class="row">
+            <div class="row ms-5">
                 <div class="col-5 text-end">
                     <img src="../images/2022/napkin.gif" alt="overcomplicated device to wipe your mouth with a napkin automatically"/></div>
                 <div class="col-5 text-start">
